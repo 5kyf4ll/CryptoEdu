@@ -86,9 +86,9 @@ const linksArray = [
     to: "/",
   },
   {
-    label: "Estadisticas",
+    label: "Cifrado Cesar",
     icon: <MdOutlineAnalytics />,
-    to: "/estadisticas",
+    to: "/cifrado cesar",
   },
   {
     label: "Productos",

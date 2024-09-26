@@ -1,8 +1,9 @@
 import styled from "styled-components";
-export function Estadisticas(){
+export function CifradoCesar(){
     return(
         <Container>
-            <h1>Estadisticas</h1>
+            <h1>Cifrado Cesar</h1>
+            <p>El cifrado cesar es </p>
         </Container>
     );
 }
