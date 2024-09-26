@@ -29,7 +29,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
         <div className="imgcontent">
           <img src={logo} />
         </div>
-        <h2>codigo369</h2>
+        <h2>Criptografia</h2>
       </div>
       {linksArray.map(({ icon, label, to }) => (
         <div className="LinkContainer" key={label}>
