@@ -198,6 +198,8 @@ const Entrada = styled.div`
         border-radius: 4px;
         resize: vertical;
         height: 450px;
+        background-color: #e7e7e7;
+        resize: none;
     }
 `;
 
@@ -212,6 +214,8 @@ const Salida = styled.div`
         border-radius: 4px;
         resize: vertical;
         height: 450px;
+        background-color: #e7e7e7;
+        resize: none;
     }
 `;
 
