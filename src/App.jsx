@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import { MyRoutes } from "./routers/routes";
 import styled from "styled-components";
 import { BrowserRouter } from "react-router-dom";
@@ -8,8 +7,8 @@ import { Light, Dark } from "./styles/Themes";
 import { ThemeProvider } from "styled-components";
 export const ThemeContext = React.createContext(null);
 function App() {
-  const [theme, setTheme] = useState("light");
-  const themeStyle = theme === "light" ? Light : Dark;
+  const [theme, setTheme] = useState("dark");
+  const themeStyle = theme === "dark" ? Dark : Light;
 
   const [sidebarOpen, setSidebarOpen] = useState(true);
   return (
