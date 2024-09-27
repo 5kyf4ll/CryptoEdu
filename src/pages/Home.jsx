@@ -11,6 +11,12 @@ export function Home() {
           <p>El Cifrado César es uno de los métodos de cifrado más antiguos y simples. Consiste en desplazar cada letra del mensaje original un número fijo de posiciones en el alfabeto. Por ejemplo, con un desplazamiento de 3, la letra 'A' se convierte en 'D', la 'B' en 'E', y así sucesivamente. Este método se utiliza para convertir un mensaje legible en uno cifrado, dificultando su lectura para cualquier persona que no conozca el desplazamiento utilizado.</p>
           <br />
         </details>
+        <h2>Cifrado Playfair</h2>
+        <details open>
+          <summary><b>Descripcion</b></summary>
+          <p></p>
+          <br />
+        </details>
         <h2>Cifrado Vigenere</h2>
         <details open>
           <summary><b>Descripcion</b></summary>

@@ -91,9 +91,9 @@ const linksArray = [
     to: "/cifrado cesar",
   },
   {
-    label: "Productos",
+    label: "Cifrado Playfair",
     icon: <AiOutlineApartment />,
-    to: "/productos",
+    to: "/cifrado playfair",
   },
   {
     label: "Diagramas",
