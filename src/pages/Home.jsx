@@ -52,4 +52,7 @@ const Content = styled.div`
   height: calc(100vh - 60px); /* Si tienes un margen de 60px arriba y abajo */
 
   overflow-y: auto;
+  summary{
+    cursor:pointer;
+  }
 `;
